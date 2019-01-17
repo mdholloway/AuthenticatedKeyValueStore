@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michael Holloway"
+		]
+	},
+	"authenticatedkeyvaluestore-desc": "Provides a generic key-value store for arbitrary user data"
+}

@@ -1,0 +1,26 @@
+{
+	"name": "AuthenticatedKeyValueStore",
+	"version": "0.1.0",
+	"author": [
+		"Michael Holloway"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:AuthenticatedKeyValueStore",
+	"descriptionmsg": "authenticatedkeyvaluestore-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.33"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\AuthenticatedKeyValueStore\\": "src/"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\AuthenticatedKeyValueStore\\Hooks::onLoadExtensionSchemaUpdates"
+	},
+	"MessagesDirs": {
+		"AuthenticatedKeyValueStore": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2
+}
